@@ -20,7 +20,7 @@ $mahasiswa = query($query);
     </thead>
     <tbody>
         <?php if(!$mahasiswa) : ?>
-        <h5 class="text-center m-5 p-5">Sorry, Data Tidak ditemukan</h5>
+        <h5 class="text-center m-5 p-5">Sorry, Data Not Found</h5>
         <?php else : ?>
         <?php $i = 1 ?>
         <?php foreach($mahasiswa as $mhs) : ?>

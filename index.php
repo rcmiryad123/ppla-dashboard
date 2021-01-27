@@ -40,13 +40,13 @@ if(isset($_POST["cari"])) {
         <div class="container alert"></div>
         <section>
             <div class="container">
+                <form method="post" action="">
+                    <div class="input-group mb-3">
+                        <input id="keyword" type="text" name="keyword" size="50" placeholder="Masukan Keyword Pencarian" autocomplete="off" class="form-control">
+                        <!-- <button id="tombol-cari" type="submit" name="cari" class="btn btn-outline-secondary">Cari!</button> -->
+                    </div>
+                </form>
                 <div id="container" class="container bg-light pt-3 rounded">
-                    <form method="post" action="">
-                        <div class="input-group mb-3">
-                            <input id="keyword" type="text" name="keyword" size="50" placeholder="Masukan Keyword Pencarian" autocomplete="off" class="form-control">
-                            <!-- <button id="tombol-cari" type="submit" name="cari" class="btn btn-outline-secondary">Cari!</button> -->
-                        </div>
-                    </form>
                     <table class="table table-light">
                         <thead>
                             <tr class="table-dark">
