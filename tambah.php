@@ -34,7 +34,7 @@ if(isset($_POST["submit"])){
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="tambah.php">Tambah Data</a>
                 <a class="navbar-brand" href="logout.php">Logout</a>
