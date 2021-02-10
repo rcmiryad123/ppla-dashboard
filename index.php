@@ -17,10 +17,12 @@ if(isset($_POST["cari"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Selamat Datang</title>
-    <style>.display{
-        display: none;
-        position: absolute;
-    }</style>
+    <style>
+        .display {
+            display: none;
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -30,7 +32,6 @@ if(isset($_POST["cari"])) {
                 <a class="btn btn-danger" href="logout.php">Logout</a>
             </div>
         </nav>
-        <img src="img/805.gif" class="display p-5">
         <div class="container text-center m-5">
             <h1>Selamat Datang, Admin</h1>
         </div>
@@ -46,10 +47,11 @@ if(isset($_POST["cari"])) {
                         <!-- <button id="tombol-cari" type="submit" name="cari" class="btn btn-outline-secondary">Cari!</button> -->
                     </div>
                 </form>
+                <img src="img/loading.gif" class="display mt-5 pt-5 position-absolute top-50 start-50 translate-middle">
                 <div id="container" class="container bg-light pt-3 rounded">
                     <table class="table table-light">
                         <thead>
-                            <tr class="table-dark">
+                            <tr class="table-light">
                                 <th scope="col">No. </th>
                                 <th scope="col">Aksi. </th>
                                 <th scope="col">Foto</th>

@@ -9,7 +9,7 @@ $mahasiswa = query($query);
 ?>
 <table class="table table-light">
     <thead>
-        <tr class="table-dark">
+        <tr class="table-light">
             <th scope="col">No. </th>
             <th scope="col">Aksi. </th>
             <th scope="col">Foto</th>
